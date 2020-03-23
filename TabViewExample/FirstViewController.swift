@@ -14,7 +14,7 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Elephant"
-        tabBar.badgeValue = String(10)
+        tabBarItem.badgeValue = String(10)
         imgCharacter.image = UIImage(named:"Elephant")
         // Do any additional setup after loading the view.
     }
