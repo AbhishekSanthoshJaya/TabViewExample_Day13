@@ -15,8 +15,11 @@ class ThirdViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.title = "Gorilla"
+        tabBarItem.badgeValue = String(30)
+        imgCharacter.image = UIImage(named:"Gorilla")
         
-        tabBarItem.badgeValue = String(100)
+  
     }
     
 
